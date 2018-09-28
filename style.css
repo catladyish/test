@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ubuntu Mono', monospace;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/dd/Code_presentation_background.png");
+}
+
+p {
+	width: 80vw;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#nav {
+	background-color: #373f45;
+	padding: 12px;
+}
+
+#nav > a {
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#nav > a:hover {
+	color: #58ab7e;
+}
+
+#content {
+	background-color: white;
+	width: 85vw;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+#logo {
+	text-align: center;
+	display: block;
+	margin:0 auto;
+}
